@@ -1,3 +1,18 @@
+--******************************************************************************************************
+-- Organización: Rimac
+-- Programa: Migración AS400 y VUL a Acsel-e
+-- Creado por: 
+-- Fecha Creación: 
+-- Propósito: Obtención de las coberturas
+-- Fuentes de datos: Capa Raw
+-- Proceso : Staging
+-- Historial de Modificaciones
+-- Autor            fecha             Detalle
+--======================================================================================================
+-- Victor Usuy     13/11/2024         Adición de los cruces de tabla con pólizas migradas
+-- Kevin Tacco	   04/12/2024         Limpieza de codigo comentado CM 1125206
+--******************************************************************************************************
+
 SELECT periodo, ----
 des_producto
   ,tip_documento_afiliado
