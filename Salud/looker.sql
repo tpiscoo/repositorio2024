@@ -1,4 +1,4 @@
-SELECT periodo,
+SELECT periodo, ----
 des_producto
   ,tip_documento_afiliado
   ,num_documento_afiliado
